@@ -9,6 +9,7 @@
 ### Сценарий запуска для Linux:
 Создаём и активируем виртуальное окружение:
 ```bash
+cd sources
 python3 -m venv test_env
 source test_env/bin/activate
 ```
@@ -24,6 +25,7 @@ python3 -m flask run
 ### Сценарий запуска для Windows
 Создаём и активируем виртуальное окружение:
 ```bash
+cd sources
 python -m venv test_env
 test_env\Scripts\activate
 ```
